@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; }
+a { color: #60a5fa; text-decoration: none; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.card { background: #1e293b; border-radius: 8px; padding: 20px; margin-bottom: 16px; border: 1px solid #334155; }
+.card h2 { color: #f1f5f9; margin-bottom: 12px; }
+.card h3 { color: #f1f5f9; margin-bottom: 8px; }
+.score-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-weight: 600; font-size: 14px; }
+.score-critical { background: #7f1d1d; color: #fca5a5; }
+.score-high { background: #7c2d12; color: #fdba74; }
+.score-medium { background: #713f12; color: #fcd34d; }
+.score-low { background: #1e3a5f; color: #93c5fd; }
+.btn { padding: 8px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; display: inline-flex; align-items: center; gap: 6px; }
+.btn-primary { background: #2563eb; color: white; }
+.btn-primary:hover { background: #1d4ed8; }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-sm { padding: 4px 12px; font-size: 12px; background: #334155; color: #94a3b8; }
+.btn-sm:hover { background: #475569; }
+input, textarea, select { width: 100%; padding: 10px; border: 1px solid #475569; border-radius: 6px; background: #0f172a; color: #e2e8f0; font-size: 14px; outline: none; }
+input:focus, textarea:focus, select:focus { border-color: #2563eb; }
+textarea { min-height: 120px; font-family: monospace; resize: vertical; }
+label { display: block; margin-bottom: 6px; color: #94a3b8; font-size: 13px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.mt-4 { margin-top: 16px; }
+.mb-4 { margin-bottom: 16px; }
+.code-block { background: #0f172a; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 12px; overflow-x: auto; white-space: pre-wrap; }
+.highlight-box { padding: 12px; background: #0f172a; border-radius: 6px; border-left: 3px solid #2563eb; }
+.tag { display: inline-block; padding: 2px 8px; background: #334155; border-radius: 4px; font-size: 12px; margin: 2px; }
